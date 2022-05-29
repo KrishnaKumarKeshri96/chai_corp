@@ -1,7 +1,7 @@
-const PayNowButton = () => {
+const PayNowButton = ({ handleClick }) => {
   return (
     <div className="pay-now">
-      <button>Pay Now</button>
+      <button onClick={handleClick}>Pay Now</button>
     </div>
   );
 };
