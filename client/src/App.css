@@ -78,11 +78,15 @@ hr{
   font-size: 1.2em;
 }
 
+.credit-card{
+  cursor: pointer;
+}
 
 .carousel-main{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2em;
 }
 
 
@@ -113,4 +117,16 @@ hr{
 
     .carousel-root button:hover {
       background-color: none !important;
+    }
+
+    .order-summary {
+      margin: 0 2em;
+    }
+    .order-line{
+      display: flex;
+      justify-content:space-between;
+      margin-top: 0.5em;
+    }
+    .order-summary>.order-line:last-child{
+      font-weight:bold;
     }

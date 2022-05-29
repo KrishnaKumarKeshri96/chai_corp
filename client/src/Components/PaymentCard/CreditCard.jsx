@@ -10,7 +10,7 @@ const CreditCard = () => {
   const [number, setNumber] = useState(4378 + "********" + 3453);
 
   return (
-    <div>
+    <div className="credit-card">
       <Card
         locale={{
           valid: "Valido até",
