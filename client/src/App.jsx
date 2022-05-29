@@ -5,6 +5,7 @@ import CheckOut from "./Components/CheckOut";
 import CarouselPayment from "./Components/PaymentCard/Carrasol";
 import PaymentHeading from "./Components/PaymentHeading";
 import OrderSummary from "./Components/OrderSummary/OrderSummary";
+import PayNowButton from "./Components/PayNowButton";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <PaymentHeading />
       <CarouselPayment />
       <OrderSummary />
+      <PayNowButton />
     </>
   );
 }
