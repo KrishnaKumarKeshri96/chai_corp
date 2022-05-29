@@ -1,0 +1,11 @@
+.btn-arrow>img{
+  height:2em;
+cursor: pointer;
+margin-top:2em;
+margin-left:2em;
+}
+.btn-arrow{
+  background:white;
+  border: none;
+  outline: none;
+}
