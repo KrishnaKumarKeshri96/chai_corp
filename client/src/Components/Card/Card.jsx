@@ -6,10 +6,6 @@ const Card = () => {
     <>
       <div>
         <CardSection />
-        <CardSection />
-        <CardSection />
-        <CardSection />
-        <CardSection />
 
         <hr />
       </div>

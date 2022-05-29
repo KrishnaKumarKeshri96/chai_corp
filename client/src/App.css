@@ -8,6 +8,7 @@ margin-left:2em;
   background:white;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 .check-out{
   margin-top:0.5em;
@@ -65,4 +66,14 @@ hr{
 
 
 
+}
+
+.payment-head{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2em;
+}
+.payment-head>div:first-child{
+  font-weight: bold;
+  font-size: 1.2em;
 }
