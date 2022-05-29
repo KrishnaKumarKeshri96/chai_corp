@@ -15,3 +15,54 @@ margin-left:2em;
   font-weight: bolder;
   font-size:2em;
 }
+
+hr{
+  border:none;
+  border-top: 1px solid #e3e0e0;
+
+}
+.card-flex{
+  display: flex;
+  justify-content: space-between;
+
+}
+.left-side{ 
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+
+}
+
+.left-side>div:nth-child(1){
+  font-size:1.3em;
+  font-weight: bold;
+}
+
+.left-side>div:nth-child(2){
+  color:#aba8a8;
+}
+
+.left-side>div:nth-child(3){
+  display: flex;
+  
+}
+.left-side>div:nth-child(3)>div{
+  margin-right: 1em;
+  font-weight:bold;
+
+}
+
+.left-side>div:nth-child(3)>div:nth-child(2){
+  color:#9495C7;
+
+}
+.right-side{
+  margin-top:0.3em;
+  margin-right: 2em;
+}
+.right-side>img{
+  height:4.5em;
+
+
+
+}
