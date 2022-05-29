@@ -77,3 +77,40 @@ hr{
   font-weight: bold;
   font-size: 1.2em;
 }
+
+
+.carousel-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.carousel.carousel-slider {
+  margin: auto;
+  overflow: visible;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.carousel .slide {
+  color: white;
+  background:white;
+
+}
+
+
+ .carousel-root>div{
+   width:290px !important;
+ }
+ 
+ .carousel-root button{
+   background-color: none !important;
+   height:20px !important;
+   margin-top:25% !important;
+ }
+
+    .carousel-root button:hover {
+      background-color: none !important;
+    }
